@@ -1,0 +1,4 @@
+yaml file to view : kubectl run <name> --image=nginx --dry-run=client -o yaml
+pods on node : kubctl get pods -owide
+create a pod : kubectl run <pod-name> --image=nginx
+create a deployment : kubectl create deployment <name> --image=nginx --replicas=3
